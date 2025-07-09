@@ -110,7 +110,7 @@ int main() {
 ```bash
 arm-linux-gnueabihf-gcc -c get_lcd_size.c -o get_lcd_size.o
 arm-linux-gnueabihf-ar rcs libget_lcd_size.a get_lcd_size.o
-arm-linux-gnueabihf-gcc get_lcd_sizs_demo.c -L. -lget_lcd_size -o get_lcd_sizs_demo
+arm-linux-gnueabihf-gcc get_lcd_size_demo.c -L. -lget_lcd_size -o get_lcd_size_demo
 ```
 
 ## 注意事项
