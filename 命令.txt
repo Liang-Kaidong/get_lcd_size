@@ -1,0 +1,5 @@
+arm-linux-gnueabihf-gcc get_lcd_size_demo.c -L. -lget_lcd_size -o get_lcd_size_demo
+
+chmod +x get_lcd_size_demo
+
+./chmod +x get_lcd_size_demo
